@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package cofre;
 
 import cucumber.api.PendingException;
@@ -21,10 +17,6 @@ import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-/**
- *
- * @author Minoru
- */
 public class CofreCucumberTest extends CofrePMTest {
 
     public CofreCucumberTest() {
