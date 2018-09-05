@@ -80,21 +80,4 @@ public class TravadoCofrePMTest extends CofrePMTest {
 
         verify(sensorMock, times(2)).destravar(); //destravar eh chamado pelo construtor tb
     }
-    
-    @Given("^pressionei o botao (\\d+)$")
-    public void pressionei_o_botao(int arg1) throws Exception {
-        
-    }
-
-    @When("^pressionei entrar$")
-    public void pressionei_entrar() throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
-
-    @Then("^a mensagem \"([^\"]*)\" deve aparecer$")
-    public void a_mensagem_deve_aparecer(String arg1) throws Exception {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
-    }
 }

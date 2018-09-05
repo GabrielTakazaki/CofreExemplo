@@ -5,7 +5,7 @@ package cofre;
  * @author andreendo
  */
 public class CofrePMTest {
-    SensorPorta sensorMock;
-    Memoria memoriaMock;
-    CofrePM cofrePM;
+    public SensorPorta sensorMock;
+    public Memoria memoriaMock;
+    public CofrePM cofrePM;
 }
